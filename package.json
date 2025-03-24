@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-ganghu",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "HuGang's opinionated ESlint rules",
+  "license": "MIT",
+  "devDependencies": {
+    "@ganghu/eslint-config": "^1.0.3",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "eslint": "^9.23.0"
+  }
+}
