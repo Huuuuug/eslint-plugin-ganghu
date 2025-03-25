@@ -1,12 +1,17 @@
 import ganghu from '@ganghu/eslint-config'
+import pluginGanghu from './src'
 
 export default ganghu(
   {
-    typescript: {
-      overrides: {
-        'no-console': 'warn',
-      },
+    typescript: true,
+  },
+  {
+    name: 'ganghu',
+    plugins: {
+      ganghu: pluginGanghu,
     },
-    vue: true,
+    rules: {
+      'ganghu/if-newline': 'error',
+    },
   },
 )

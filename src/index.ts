@@ -1,9 +1,14 @@
 import type { ESLint } from 'eslint'
+import { version } from '../package.json'
+import ifNewline from './rules/if-newline'
 
 const plugin: ESLint.Plugin = {
   meta: {
     name: 'ganghu',
-    version: '0.0.1',
+    version,
+  },
+  rules: {
+    'if-newline': ifNewline,
   },
 }
 

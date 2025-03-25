@@ -4,9 +4,21 @@
   "version": "1.0.0",
   "description": "HuGang's opinionated ESlint rules",
   "license": "MIT",
+  "scripts": {
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "eslint": "*"
+  },
   "devDependencies": {
     "@ganghu/eslint-config": "^1.0.3",
-    "typescript": "^5.8.2"
+    "@types/node": "^22.13.13",
+    "@typescript-eslint/parser": "^8.28.0",
+    "@typescript-eslint/utils": "^8.27.0",
+    "eslint-vitest-rule-tester": "^2.1.0",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.3",
+    "vitest": "^3.0.9"
   },
   "dependencies": {
     "eslint": "^9.23.0"
