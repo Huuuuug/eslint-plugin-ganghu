@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-ganghu",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ganghu's opinionated ESlint rules",
   "author": "Ganghu <18768366022@163.com>",
   "license": "MIT",
